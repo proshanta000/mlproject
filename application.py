@@ -56,4 +56,4 @@ def predict_datapoint():
 if __name__ == "__main__":
     # Ensure you have a 'templates' folder in the same directory as app.py
     # and that 'index.html' and 'result.html' are inside it.
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0')
